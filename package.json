@@ -1,0 +1,42 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "\"modules'",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "core-js": "^3.4.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.7.1",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PGVlasov/ajs-modules.git"
+  },
+  "keywords": [
+    "task"
+  ],
+  "author": "PGVlasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PGVlasov/ajs-modules/issues"
+  },
+  "homepage": "https://github.com/PGVlasov/ajs-modules#readme"
+}
